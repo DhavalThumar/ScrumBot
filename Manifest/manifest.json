@@ -1,0 +1,61 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.11/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.11",
+  "version": "2.0.0",
+  "id": "b716458e-2fba-4733-8fa6-39704ec75a1f",
+  "packageName": "com.microsoft.teams.scrumeasy",
+  "developer": {
+    "name": "AIMDek Technologies Pvt. Ltd.",
+    "websiteUrl": "https://www.aimdek.com",
+    "privacyUrl": "https://www.aimdek.com/privacy-policy/",
+    "termsOfUseUrl": "https://www.aimdek.com/terms-of-usage-policy/",
+    "mpnId": "444596"
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "name": {
+    "short": "Scrum Easy",
+    "full": "Scrum Easy"
+  },
+  "description": {
+    "short": "Scrum Easy helps you automate your daily, weekly,monthly standup meetings.",
+    "full": "Scrum Easy is a simple scrum assistant that will enable users to automate their stand-up meetings and provide an easy way for the users to share their daily, weekly, monthly scrum updates. Please visit us at https://www.aimdek.com/scrum-easy-support/ for further help or for getting started."
+  },
+  "accentColor": "#FFCCD8",
+  "bots": [
+    {
+      "botId": "d035f985-e1cb-4ce3-ba24-f612c3c9a2ca",
+      "scopes": [
+        "team"
+      ],
+      "commandLists": [
+        {
+          "scopes": [
+            "team"
+          ],
+          "commands": [
+            {
+              "title": "Open settings",
+              "description": "Opens the settings task module to add or update scrums"
+            },
+            {
+              "title": "Help",
+              "description": "Shows the operations I can perform"
+            },
+            {
+              "title": "Start scrum",
+              "description": "Start a scrum in current channel"
+            }
+          ]
+        }
+      ],
+      "supportsFiles": false,
+      "isNotificationOnly": false
+    }
+  ],
+  "validDomains": [
+  	"scrumeasystaggin.azurewebsites.net"
+  ]
+}
